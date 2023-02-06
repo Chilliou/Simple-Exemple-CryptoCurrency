@@ -15,7 +15,7 @@ class Blockchain:
 
 	def afficher_chain(self):
 		for i in range(len(self.chain)):
-			print(f"Donnée {i + 1}: {self.chain[i].block_data}")
+			print(f"Donnée {i + 1}: {self.chain[i].donnee_block}")
 			print(f"Hash {i + 1}: {self.chain[i].block_hash}\n")
 
 	@property
