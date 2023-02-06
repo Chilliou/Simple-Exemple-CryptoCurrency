@@ -1,3 +1,5 @@
+import hashlib
+
 class GeekCoinBlock:
 
 	def __init__(self, previous_block_hash, transaction_list):
